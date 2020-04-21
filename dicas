@@ -31,3 +31,10 @@ git reset HEAD~<n> --[soft|hard]
 Vota n commits anteriores
 --soft volta o commit sem mexer nos arquivos
 --hard volta o commit e substitui os arquivos
+
+git checkout <branch>
+troca de branch de trabalho
+
+git checkout -b <branch>
+Cria um branch e muda para ele
+
