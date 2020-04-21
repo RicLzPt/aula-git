@@ -40,3 +40,5 @@ Cria um branch e muda para ele
 
 git branch -d <branch>
 exclui branch
+
+teste
