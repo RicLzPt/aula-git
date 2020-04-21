@@ -41,4 +41,11 @@ Cria um branch e muda para ele
 git branch -d <branch>
 exclui branch
 
-teste
+git remote add <nome padrão 'origin'> <endereco>
+adiciona um repositório remoto
+
+git remote set-url <nome padrão 'origin'> <novo endereço>
+seta endereço para o origin
+
+
+git push origin <branch>
