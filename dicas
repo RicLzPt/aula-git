@@ -1,0 +1,33 @@
+git init
+Inicia um repositório na pasta
+O git tem 3 estágios
+- Untracked
+- Stage (Changes to be committed)
+- Committed
+
+git status
+
+git add <file> 
+Adiciona os arquivos "Untracked" para "stage" para ser versionado pelo git local
+
+git reset HEAD <file>
+Volta o arquivo de stage para untracked
+
+
+git commit -m "comentários" (git commit -a [sem stage])
+Coloca os arquivos "Stage" para commit
+
+git log
+apresenta informações do repositório
+
+git branch
+Exibe as ramificações
+
+git checkout <sha do cmmit>
+volta para um commit específico
+
+
+git reset HEAD~<n> --[soft|hard]
+Vota n commits anteriores
+--soft volta o commit sem mexer nos arquivos
+--hard volta o commit e substitui os arquivos
